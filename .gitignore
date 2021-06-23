@@ -13,3 +13,20 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+
+# IntelliJ project files
+.idea
+out
+gen
+
+# VsCode project files
+.vscode/*
+
+*.log
+*.zip
+
+log/*
+*.swp
+*.swo
+
+.DS_Store
