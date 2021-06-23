@@ -1,5 +1,11 @@
 ## 工厂模式
-[toc]
+
+- [工厂模式](#工厂模式)
+  - [1、抛出问题](#1抛出问题)
+  - [2、解决方案](#2解决方案)
+  - [3、工厂方法模式的应用场景](#3工厂方法模式的应用场景)
+  - [4、实现方式](#4实现方式)
+
 ---
 ### 1、抛出问题
 
@@ -173,6 +179,4 @@ ok      transport/transport     0.461s
 ```
 ---
 
-#### 扫码关注
-
-![wechat-qrcode.png](../assets/wechat-qrcode.png)
+![wechat-qrcode.png](../assets/wechat-qrcode.jpg)
