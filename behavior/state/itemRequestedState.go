@@ -16,7 +16,7 @@ func (i *itemRequestedState) addItem(count int) error {
 
 func (i *itemRequestedState) insertMoney(money int) error {
 	if money < i.vendingMachine.itemPrice {
-		fmt.Errorf("Insert money is less. Please insert %d", i.vendingMachine.itemPrice)
+		return fmt.Errorf("Insert money is less. Please insert %d", i.vendingMachine.itemPrice)
 	}
 	fmt.Println("Money entered is ok.")
 	i.vendingMachine.setState(i.vendingMachine.hasMoney)
